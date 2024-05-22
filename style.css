@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+	
+}
+
+.bod{
+	background-color: #08a7d6;
+	font-family: 'Chewy', cursive;
+}
+.bod-info{
+	background-image: url(infobackground.jpg);
+	font-family: 'Chewy', cursive;
+	color: #2e2347;
+}
+.nav-link{
+	text-align: center;
+	
+}
+#p{
+	-webkit-text-stroke: 2px;
+	-webkit-text-stroke-color: red;
+	margin-top: 15%;
+	font-size: 50px;
+}
+
+h1,h2{
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: red;
+}  
+/* .form-group, .form-control{
+	text-align: center;
+} */
+
+.image{
+	width: 300px;
+	height: 300px;
+	margin-left: 40vw;
+	
+}
+
+.buttons,.nextButton{
+	text-align: center;
+}
+#easy,#medium,#hard{
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	font-weight: bold;
+}
+#easy{
+	
+	background-color: #17911d;
+}
+#medium{
+	background-color: #e8c917;
+}
+#hard{
+	background-color: red;
+}
+
+.questionsAndanswers,#questions  {
+	text-align: center;
+	font-size: 200%;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: white;
+	
+}
+
+.questionsAndanswers{
+	padding-top: 5%;
+}
+
+
+.nextButton-container{
+	text-align: center;
+}
+#nextButton{
+	margin-top: 5%;
+	margin-bottom: 4%;
+}
+.container{
+	text-align: center;
+}
+#score{
+	
+	text-align: center;
+	font-size: 200%;
+	
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: limegreen;
+}
+
+.score_image{
+	text-align: center;
+	
+	
+	
+}
